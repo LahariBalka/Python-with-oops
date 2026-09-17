@@ -1,0 +1,20 @@
+class Birds:
+    def sing(self):
+        print("Birds sing")
+
+class Peacock:
+    def sing(self):
+        print("peacock sings")
+
+class Peahen:
+    def sleeps(self):
+        print("peahen sleeps")
+
+class Peachick(Peacock, Peahen):
+    def runs(self):
+        print("peachick runs")
+
+p1 = Peachick()
+p1.sing()
+p1.sleeps()
+p1.runs()
