@@ -1,0 +1,9 @@
+
+
+class Dog:
+    name = "sheero"
+    def get(self):
+        return self.name
+
+d = Dog()
+print(d.get())
