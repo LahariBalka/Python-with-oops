@@ -1,0 +1,17 @@
+class Teacher:
+    name = "crt"
+    age = 25
+    salary = 50000
+
+    def teach(self):
+        print("teaching")
+
+    def guide(self):
+        print("guiding")
+
+t1 = Teacher()
+t2 = Teacher()
+t3 = Teacher()
+print(t1.name)
+print(t2.age)
+t1.teach()
