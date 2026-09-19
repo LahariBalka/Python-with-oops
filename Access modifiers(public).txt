@@ -1,0 +1,6 @@
+class Sport:
+    name = "Badminton"
+    print(name)
+
+s1 = Sport()
+print(s1.name)
