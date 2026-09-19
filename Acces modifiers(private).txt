@@ -1,0 +1,15 @@
+class Sport:
+    __name1 = "Basketball"
+    __name2 = "throwball"
+    __name3 = "Handball"
+
+    def sample(self):
+        print(self.__name1)
+        print(self.__name2)
+
+s = Sport()
+s.sample()
+
+# Correct way to access private outside class (not recommended, but works)
+print(s._Sport__name1)
+print(s._Sport__name2)
