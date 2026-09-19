@@ -1,0 +1,15 @@
+class Student:
+    def __init__(self, name, roll, m1, m2, m3):
+        self.name = name
+        self.roll = roll
+        self.marks = [m1, m2, m3]
+
+    def result(self):
+        total = sum(self.marks)
+        avg = total / 3
+        grade = "A" if avg>=90 else "B" if avg>=75 else "C" if avg>=60 else "D" if avg>=35 else "Fail"
+        print(f"Name: {self.name}, Roll: {self.roll}")
+        print(f"Total: {total}, Avg: {avg:.1f}, Grade: {grade}")
+
+s = Student("Lahari", 20, 85, 90, 78)
+s.result()
